@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord Boost & Members</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <style>
         body {
             margin: 0;
             font-family: 'Roboto', sans-serif;
-            background: linear-gradient(135deg, #7289da, #99aab5);
+            background: linear-gradient(135deg, #5865F2, #2c2f33);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -19,70 +20,92 @@
 
         .container {
             text-align: center;
-            background: rgba(0,0,0,0.6);
+            background: rgba(0,0,0,0.65);
             padding: 50px;
             border-radius: 20px;
-            box-shadow: 0 0 30px rgba(0,0,0,0.7);
-            animation: fadeIn 1.5s ease-in-out;
+            box-shadow: 0 0 30px rgba(0,0,0,0.8);
+            animation: fadeIn 1.2s ease-in-out;
+            width: 350px;
         }
 
         h1 {
-            margin-bottom: 40px;
-            font-size: 2.5em;
-            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+            margin-bottom: 30px;
+            font-size: 2.2em;
+        }
+
+        h2 {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            color: #57F287;
         }
 
         .btn {
-            display: inline-flex;
+            display: flex;
             align-items: center;
             justify-content: center;
-            padding: 15px 35px;
-            margin: 15px;
-            font-size: 1.2em;
+            padding: 14px 30px;
+            margin: 12px 0;
+            font-size: 1.1em;
             font-weight: bold;
             color: #fff;
-            background: #5865f2;
-            border: none;
+            background: #5865F2;
             border-radius: 12px;
-            cursor: pointer;
             text-decoration: none;
             transition: 0.3s;
-            box-shadow: 0 0 15px rgba(88,101,242,0.6);
+            box-shadow: 0 0 15px rgba(88,101,242,0.7);
         }
 
         .btn:hover {
-            background: #4752c4;
-            box-shadow: 0 0 25px rgba(88,101,242,0.9);
+            background: #4752C4;
+            box-shadow: 0 0 25px rgba(88,101,242,1);
+            transform: scale(1.05);
+        }
+
+        .community {
+            background: #57F287;
+            color: #000;
+            box-shadow: 0 0 20px rgba(87,242,135,0.9);
+        }
+
+        .community:hover {
+            background: #3ba55d;
+            box-shadow: 0 0 30px rgba(87,242,135,1);
         }
 
         .btn img {
-            width: 24px;
-            height: 24px;
+            width: 22px;
             margin-right: 10px;
         }
 
         @keyframes fadeIn {
-            from {opacity: 0; transform: translateY(-20px);}
+            from {opacity: 0; transform: translateY(-15px);}
             to {opacity: 1; transform: translateY(0);}
         }
     </style>
 </head>
 <body>
+
     <div class="container">
-        <h1>Discord Boost & Members</h1>
-        <a href="https://discord.gg/Cj9ZfUAFJu" target="_blank" class="btn">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord Logo">
+        <h1>Discord Services</h1>
+
+        <a class="btn" href="https://discord.gg/Cj9ZfUAFJu" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg">
             Buy Boost
         </a>
-        <a href="https://discord.gg/Yzb8sh8C" target="_blank" class="btn">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord Logo">
+
+        <a class="btn" href="https://discord.gg/Yzb8sh8C" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg">
             Buy Members
         </a>
-        <a href="https://discord.gg/hFrv9kB6Tu" target="_blank" class="btn">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord Logo">
-            COMMUNITY
+
+        <h2>COMMUNITY</h2>
+
+        <a class="btn community" href="https://discord.gg/hFrv9kB6Tu" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg">
+            Join Community
         </a>
     </div>
+
 </body>
 </html>
-
