@@ -11,21 +11,21 @@
             margin: 0;
             font-family: 'Roboto', sans-serif;
             background: linear-gradient(135deg, #5865F2, #2c2f33);
+            color: #fff;
+            min-height: 100vh;
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 100vh;
-            color: #fff;
+            align-items: flex-start;
+            padding-top: 60px;
         }
 
         .container {
             text-align: center;
             background: rgba(0,0,0,0.65);
-            padding: 50px;
+            padding: 40px;
             border-radius: 20px;
             box-shadow: 0 0 30px rgba(0,0,0,0.8);
-            animation: fadeIn 1.2s ease-in-out;
-            width: 350px;
+            width: 340px;
         }
 
         h1 {
@@ -34,9 +34,8 @@
         }
 
         h2 {
-            margin-top: 40px;
-            margin-bottom: 20px;
-            font-size: 1.5em;
+            margin: 35px 0 15px;
+            font-size: 1.4em;
             color: #57F287;
         }
 
@@ -44,16 +43,18 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 14px 30px;
-            margin: 12px 0;
+            padding: 14px 28px;
+            margin: 12px auto;
             font-size: 1.1em;
             font-weight: bold;
             color: #fff;
             background: #5865F2;
             border-radius: 12px;
             text-decoration: none;
-            transition: 0.3s;
-            box-shadow: 0 0 15px rgba(88,101,242,0.7);
+            transition: 0.25s;
+            box-shadow: 0 0 15px rgba(88,101,242,0.8);
+            width: 100%;
+            max-width: 260px;
         }
 
         .btn:hover {
@@ -65,47 +66,42 @@
         .community {
             background: #57F287;
             color: #000;
-            box-shadow: 0 0 20px rgba(87,242,135,0.9);
+            box-shadow: 0 0 18px rgba(87,242,135,0.9);
         }
 
         .community:hover {
             background: #3ba55d;
-            box-shadow: 0 0 30px rgba(87,242,135,1);
+            box-shadow: 0 0 28px rgba(87,242,135,1);
         }
 
         .btn img {
             width: 22px;
             margin-right: 10px;
         }
-
-        @keyframes fadeIn {
-            from {opacity: 0; transform: translateY(-15px);}
-            to {opacity: 1; transform: translateY(0);}
-        }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1>Discord Services</h1>
+<div class="container">
+    <h1>Discord Services</h1>
 
-        <a class="btn" href="https://discord.gg/Cj9ZfUAFJu" target="_blank">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg">
-            Buy Boost
-        </a>
+    <a class="btn" href="https://discord.gg/Cj9ZfUAFJu" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg">
+        Buy Boost
+    </a>
 
-        <a class="btn" href="https://discord.gg/Yzb8sh8C" target="_blank">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg">
-            Buy Members
-        </a>
+    <a class="btn" href="https://discord.gg/Yzb8sh8C" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg">
+        Buy Members
+    </a>
 
-        <h2>COMMUNITY</h2>
+    <h2>COMMUNITY</h2>
 
-        <a class="btn community" href="https://discord.gg/hFrv9kB6Tu" target="_blank">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg">
-            Join Community
-        </a>
-    </div>
+    <a class="btn community" href="https://discord.gg/hFrv9kB6Tu" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg">
+        Join Community
+    </a>
+</div>
 
 </body>
 </html>
